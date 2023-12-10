@@ -3,7 +3,7 @@ import numpy as np
 import requests
 
 
-st.title('Expected Points Added by Offensive Playcall')
+st.title(':blue[Expected Points] Added by Offensive Playcall')
 
 st.title('Game Situation')
 
@@ -85,7 +85,5 @@ if st.button("Get Prediction"):
     else:
         st.title(f"Expected Points Added: :red[{epa}]")
     
-
-st.text("i am testing an addition")
 
 
